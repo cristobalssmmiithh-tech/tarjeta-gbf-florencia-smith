@@ -55,7 +55,7 @@ Mail:
 </div>
 <script>
 function saveContact(){
-var vcard="BEGIN:VCARD\r\nVERSION:3.0\r\nN:Smith;Florencia;;;\r\nFN:Florencia Smith\r\nORG:Global Bridge Freight SPA\r\nTITLE:Vendedor\r\nTEL;TYPE=CELL:+56 9 9129 8693\r\nEMAIL:prubio@globalbridge.cl\r\nURL:https://www.globalbridge.cl\r\nEND:VCARD";
+var vcard="BEGIN:VCARD\r\nVERSION:3.0\r\nN:Smith;Florencia;;;\r\nFN:Florencia Smith\r\nORG:Global Bridge Freight SPA\r\nTITLE:Vendedor\r\nTEL;TYPE=CELL:+56 9 9129 8693\r\nEMAIL:prubio@globalbridge.cl\r\nURL:https://www.globalbridge.cl\r\nEMAIL:fsmith@globalbridge.cl\nEND:VCARD";
 var blob=new Blob([vcard],{type:"text/vcard"});
 var url=URL.createObjectURL(blob);
 var a=document.createElement("a");
